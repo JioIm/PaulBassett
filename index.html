@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폴바셋</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/fullpage.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/fullpage.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/cutom.js"></script>
+
+    <style>
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 30%;
+        }
+
+        .swiper-slide img {
+            display: block;
+            /* width: 100%;
+            height: 100%; */
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="Header">
+            <div class="header_wrap">
+                <h1>
+                    <a href="/">
+                        <span>PaulBassett</span>
+                    </a>
+                </h1>
+                <nav class="Gnb">
+                    <ul>
+                        <li>
+                            <a href="Big">ABOUT US</a>
+                            <ul class="Sub">
+                                <li><a href="">Brand</a></li>
+                                <li><a href="">회사소개</a></li>
+                                <li><a href="">CSR</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">MENU</a>
+                            <ul class="Sub">
+                                <li><a href="">NEW</a></li>
+                                <li><a href="">COFFEE</a></li>
+                                <li><a href="">BEVERAGE</a></li>
+                                <li><a href="">ICE-CREAM</a></li>
+                                <li><a href="">FOOD</a></li>
+                                <li><a href="">PRODUCT</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">STORE</a>
+                            <ul class="Sub">
+                                <li><a href="">매장찾기</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">SOCIETY</a>
+                            <ul class="Sub">
+                                <li><a href="">Paul Bassett Society</a></li>
+                                <li><a href="">회원 등급 혜택</a></li>
+                                <li><a href="">e-Card 선물</a></li>
+                                <li><a href="">모바일 App 안내</a></li>
+                                <li><a href="">제휴혜택 안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">WHAT'S NEW</a>
+                            <ul class="Sub">
+                                <li><a href="">Event / News</a></li>
+                                <li><a href="">Notice</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">E-SHOP</a>
+                            <ul class="Sub">
+                                <li><a href="">E-SHOP 소개</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="util">
+                    <ul >
+                            <li><a href="">로그인</a></li>
+                            <li><a href="">회원가입</a></li>
+                    </ul>
+                </div>
+                    <button class="mopen">
+                        <i data-feather="menu"></i>
+                    </button>
+            </div>
+        </header>
+        <main id="main" class="main">
+            <section class="MainVisual section fp-auto-height-responsive">
+                <div class="VisualSlide">
+                    <div class="itm itm01">
+                        <div class="slogan">
+                            <strong>Warm Up<br />Your Autumn</strong>
+                            <span>설레는 가을의 따뜻한 이유</span>
+                        </div>
+                    </div>
+                    <div class="itm itm02">
+                        <div class="slogan">
+                            <strong>Pistachio<br />Pleasure</strong>
+                            <span>입 안에 퍼지는 깊은 풍미와 고소함의 향연</span>
+                        </div>
+                    </div>
+                    <div class="itm itm03">
+                        <div class="slogan">
+                            <strong>Journey<br />Across Time</strong>
+                            <span>전통차로 만나는 향긋한 시간 여행</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="scroll">
+                    scroll
+                </a>
+            </section>
+            <section class="MainContent section fp-auto-height-responsive">
+                <div class="title">
+                    <h2>BEST MENU</h2>
+                </div>
+                <div class="Content_inner">
+
+                    <ul class="tab_menu">
+                        <li class="on"><a href="">COFFEE</a></li>
+                        <li><a href="">ICE-CREAM</a></li>
+                        <li><a href="">FOOD</a></li>
+                    </ul>
+                    <ul class="tab_content">
+                        <li class="on">
+                            <div class="swiper mm on">
+                                <div class="swiper-wrapper">
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_coffee_001.jpg" alt="리스트레토">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_coffee_002.jpg" alt="아이스 아메리카노">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_coffee_003.jpg" alt="아이스크림 카페 라떼">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_coffee_004.jpg" alt="룽고">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_coffee_005.jpg" alt="아이스 카페라떼
+                                            ">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_coffee_006.jpg" alt="스페니쉬 크림 콜드브루">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="page">
+                                <div class="button_wrap">
+                                    <button class="prev"><i data-feather="arrow-left"></i></button>
+                                    <button class="next"><i data-feather="arrow-right"></i></button>
+                                </div>
+                                <div class="txt"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="swiper mm">
+                                <div class="swiper-wrapper">
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_icecream_002.jpg" alt="밀크 아이스크림 (컵)">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_icecream_003.jpg" alt="밀크 아이스크림 (콘)">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_icecream_004.jpg" alt="밀크 소프트 아포가토">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_icecream_005.png" alt="설향 생딸기 디저트컵">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_icecream_006.png" alt="딸기 아이스크림(콘)">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_icecream_001.jpg" alt="벌집꿀 아이스크림(컵)">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="page">
+                                <div class="button_wrap">
+                                    <button class="prev"><i data-feather="arrow-left"></i></button>
+                                    <button class="next"><i data-feather="arrow-right"></i></button>
+                                </div>
+                                <div class="txt"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="swiper mm">
+                                <div class="swiper-wrapper">
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_food_002.png" alt="나타 오리지널">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_food_006.png" alt="나타 초콜릿">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_food_001.png" alt="나타 애플">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_food_003.jpg" alt="까눌레">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_food_005.png" alt="크루아상">
+                                        </div>
+                                    </figure>
+                                    <figure class="swiper-slide">
+                                        <div class="img_box">
+                                            <img src="./images/menu_food_004.png" alt="맛있는영양반숙란">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="page">
+                                <div class="button_wrap">
+                                    <button class="prev"><i data-feather="arrow-left"></i></button>
+                                    <button class="next"><i data-feather="arrow-right"></i></button>
+                                </div>
+                                <div class="txt"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            <section class="MainIntroduce section fp-auto-height-responsive ">
+                <h2 class="blind">barsta paul bassett 소개</h2>
+                <div class="inner_wrap">
+                    <div class="txt_wrap">
+                        <div class="intro_txt">
+                            <span>WBC Champion</span>
+                            <strong>Paul Bassett</strong>
+                        </div>
+                        <p>2003년 WBC(세계 바리스타 챔피언십)에서 '역대 최연소 챔피언'을 수상한<br />호주 출신의 바리스타 폴 바셋.
+                            그는 원두의 선정부터 로스팅, 추출까지의 <br />모든 과정에 심혈을 기울여 최고의 커피를 프로듀스합니다.
+                        </p>
+                    </div>
+                    <div class="inner_txt">
+                        <dl>
+                            <dt>
+                                <strong>Awards</strong>
+                                <p>
+                                    <span>2003</span>
+                                    AUSTRALIA BARISTA CHAMPIONSHIP WINNER
+                                    <br />
+                                    <span>2003</span>
+                                    WORLD BARISTA CHAMPIONSHIP WINNER
+                                </p>
+                            </dt>
+                            <dt>
+                                <strong>Introduce</strong>
+                                <p>
+                                    바리스타 폴 바셋은 2003년 당시 Boston, United States에서 개최된
+                                    WBC 대회에서 역대 최연소 및 호주인 최초로 챔피언이라는 타이틀을 수상하였습니다. </br>
+                                    폴 바셋은 당시 초콜릿, 크림, 바닐라 시럽을 이용해 자신의 이름을 딴
+                                    ‘Baccino’ 라는 창작메뉴로 호평을 받았습니다.
+                                    현재 호주 시드니를 거점으로 아시아, 유럽으로도 활동지역을 넓혀
+                                    다방면에 걸친 커피 비즈니스를 전개,
+                                    현재 세계가 주목하고 있는 바리스타 중 한 명입니다.
+                                </p>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </section>
+            <section class="MainProduct section fp-auto-height-responsive ">
+                <div class="title">
+                    <h2>PAUL BASSETT COFFEE BEAN</h2>
+                    <span>SOCIAL CONTRIBUTION</span>
+                    <p>
+                        폴 바셋은 균형 있는 커피 산업 발전과 좋은 커피 문화 확산을 위해 노력합니다.</br>
+                        폴 바셋에서는 커피생산국인 에티오피아 아동을 후원하고 있습니다.
+                    </p>
+
+                    <p class="desc">* 원두위에 마우스를 가져가시면 원두의 세부 정보를 보실 수 있습니다.</p>
+                </div>
+                <div class="ProductList">
+                    <div class="Product_inner">
+                        <ul>
+                            <li>
+                                <div class="img_box">
+                                    <img src="./images/coffeebean_001.png" alt="">
+                                </div>
+                                <div class="txt_box">
+                                    <span>폴 바셋 시그니처 블렌드</span>
+                                    <p>달콤한 카라멜과 상큼한 베리류의 향,<br />
+                                        잘 익은 과일의 단 맛과 카카오의 끝맛</p>
+                                </div>
+                                <div class="info_box">
+                                    <div class="info_txt">
+                                        <span>Tasting Note</span>
+                                        <p>카라멜, 베리류, 잘 익은 과일, 카카오</p>
+                                    </div>
+                                    <dl>
+                                        <dt>
+                                            <span>원산지</span>
+                                            <p>브라질 60% / 에티오피아 40%</p>
+                                        </dt>
+                                        <dt>
+                                            <span>지역&농장</span>
+                                            <p>Minas Gerais / Sidamo Guji</p>
+                                        </dt>
+                                        <dt>
+                                            <span>고도</span>
+                                            <p>700-1350 / 1900-2300</p>
+                                        </dt>
+                                        <dt>
+                                            <span>품종</span>
+                                            <p>Mundo novo & Catuai / 에티오피아 토착종</p>
+                                        </dt>
+                                        <dt>
+                                            <span>가공방식</span>
+                                            <p>Natural</p>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_box">
+                                    <img src="./images/coffeebean_002.png" alt="">
+                                </div>
+                                <div class="txt_box">
+                                    <span>폴 바셋 에티오피아 시다모</span>
+                                    <p>베리류의 화사한 향,<br />
+                                        딸기의 단 맛과 블랙티 처럼 깔끔한 끝 맛</p>
+                                </div>
+                                <div class="info_box">
+                                    <div class="info_txt">
+                                        <span>Tasting Note</span>
+                                        <p>베리류, 딸기, 블랙티</p>
+                                    </div>
+                                    <dl>
+                                        <dt>
+                                            <span>원산지</span>
+                                            <p>에티오피아</p>
+                                        </dt>
+                                        <dt>
+                                            <span>지역&농장</span>
+                                            <p>Sidamo Guji</p>
+                                        </dt>
+                                        <dt>
+                                            <span>고도</span>
+                                            <p>1900-2300</p>
+                                        </dt>
+                                        <dt>
+                                            <span>품종</span>
+                                            <p>에티오피아 토착종</p>
+                                        </dt>
+                                        <dt>
+                                            <span>가공방식</span>
+                                            <p>Natural</p>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_box">
+                                    <img src="./images/coffeebean_003.png" alt="">
+                                </div>
+                                <div class="txt_box">
+                                    <span>폴 바셋 콜롬비아 자이로무릴로</span>
+                                    <p>과일류의 향, 포도<br />
+                                        자두의 단 맛, 아몬드의 고소한 끝 맛</p>
+                                </div>
+                                <div class="info_box">
+                                    <div class="info_txt">
+                                        <span>Tasting Note</span>
+                                        <p>과일류, 포도, 자두, 아몬드</p>
+                                    </div>
+                                    <dl>
+                                        <dt>
+                                            <span>원산지</span>
+                                            <p>콜롬비아 100%</p>
+                                        </dt>
+                                        <dt>
+                                            <span>지역&농장</span>
+                                            <p>Antioquia</p>
+                                        </dt>
+                                        <dt>
+                                            <span>고도</span>
+                                            <p>1800-2110</p>
+                                        </dt>
+                                        <dt>
+                                            <span>품종</span>
+                                            <p>Castillo, Caturra</p>
+                                        </dt>
+                                        <dt>
+                                            <span>가공방식</span>
+                                            <p>Washed</p>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_box">
+                                    <img src="./images/coffeebean_004.png" alt="">
+                                </div>
+                                <div class="txt_box">
+                                    <span>폴 바셋 과테말라 우에우에테낭고</span>
+                                    <p>고소한 견과류, 시나몬의 스파이시한 향 체리,<br />
+                                        석류의 달콤함,자몽의 쌉사름한 끝 맛</p>
+                                </div>
+                                <div class="info_box">
+                                    <div class="info_txt">
+                                        <span>Tasting Note</span>
+                                        <p>견과류, 시나몬, 체리, 석류, 자몽</p>
+                                    </div>
+                                    <dl>
+                                        <dt>
+                                            <span>원산지</span>
+                                            <p>과테말라 100%</p>
+                                        </dt>
+                                        <dt>
+                                            <span>지역&농장</span>
+                                            <p>Huehuetenango</p>
+                                        </dt>
+                                        <dt>
+                                            <span>고도</span>
+                                            <p>1600-2200</p>
+                                        </dt>
+                                        <dt>
+                                            <span>품종</span>
+                                            <p>Caturra, Catui and Bourbon</p>
+                                        </dt>
+                                        <dt>
+                                            <span>가공방식</span>
+                                            <p>Washed</p>
+                                        </dt>
+                                    </dl>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer" class="footer section fp-auto-height">
+                <div class="inner_wrap">
+                    <div class="left">
+                        <div class="img_box">
+                            <img src="./images/logo_black.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="footer_top">
+                            <div class="footer_menu">
+                                <ul>
+                                    <li>
+                                        <a href=""><strong>개인정보처리방침</strong></a>
+                                    </li>
+                                    <li>
+                                        <a href="">신규입점안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="">이용약관</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><strong>위치정보 서비스 이용약관</strong></a>
+                                    </li>
+                                    <li>
+                                        <a href="">사이트이용약관</a>
+                                    </li>
+                                    <li>
+                                        <a href="">고객센터</a>
+                                    </li>
+                                    <li>
+                                        <a href="">사이트맵</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_bottom">
+                            <div class="ul_wrap">
+                                <ul>
+                                    <li>
+                                        <strong>엠즈씨드(주) 대표이사</strong>
+                                        <span>권태훈</span>
+                                    </li>
+                                    <li>
+                                        <strong>본사 주소</strong>
+                                        <span> 서울특별시 강남구 도산대로 75길 22 (청담동)</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <strong>사업자등록번호</strong>
+                                        <span>211-88-95935</span>
+                                    </li>
+                                    <li>
+                                        <strong>대표번호</strong>
+                                        <span>1899-8829</span>
+                                    </li>
+                                    <li>
+                                        <strong>개인정보관리책임자</strong>
+                                        <span>정보문</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="SNS">
+                        <a href=""><i data-feather="facebook"></i></a>
+                        <a href=""><i data-feather="instagram"></i></a>
+                        <a href=""><i data-feather="youtube"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+    </div>
+
+    <div class="toTop">
+        <i data-feather="arrow-up"></i>
+    </div>
+</body>
+
+</html>
